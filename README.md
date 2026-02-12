@@ -50,8 +50,9 @@ Each experiment creates a directory:
 git clone https://github.com/rwlf-i/streaming-nlp-drift-adaptation.git
 cd streaming-nlp-drift-adaptation
 pip install -r requirements.txt
+cd src
 
-python src/runner.py ../exp_configs/huffpost_lr_gradual.yaml
+python runner.py ../exp_configs/huffpost_lr_gradual.yaml
 ```
 
 ## Authors

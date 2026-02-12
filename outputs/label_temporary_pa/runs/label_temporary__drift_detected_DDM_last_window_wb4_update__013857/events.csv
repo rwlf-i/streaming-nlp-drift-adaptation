@@ -1,0 +1,2 @@
+ts,run_id,event_type,batch_id,reason,train_n,info,wall_fit_sec,cpu_fit_sec,cpu_fit_pct,rss_mb
+2026-01-29 01:38:58,label_temporary__drift_detected_DDM_last_window_wb4_update__013857,pretrain_fit,,pretrain,2500,"{""pretrain_batches"": 5, ""pre_acc"": 0.9988, ""pre_f1_macro"": 0.9966607287002354}",0.24255871772766113,0.25,103.06782718100189,

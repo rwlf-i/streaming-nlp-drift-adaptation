@@ -1,0 +1,5 @@
+2026-01-29 01:38:14,076 | INFO | Run started: run_id=label_temporary__drift_detected_ADWIN_last_window_wb2_update__013814
+2026-01-29 01:38:14,076 | INFO | run_dir=C:\Poly\Diploma\v2\outputs\20260129_013318__label_temporary_pa\runs\label_temporary__drift_detected_ADWIN_last_window_wb2_update__013814
+2026-01-29 01:38:15,239 | INFO | EVENT pretrain_fit batch_id=None reason=pretrain train_n=2500 wall=0.22620606422424316 cpu=0.21875 rss_mb=None info={'pretrain_batches': 5, 'pre_acc': 0.9988, 'pre_f1_macro': 0.9966607287002354}
+2026-01-29 01:38:17,030 | INFO | EVENT retrain_update batch_id=37 reason=drift_detected train_n=1000 wall=0.08930730819702148 cpu=0.09375 rss_mb=None info={'drift_detector': 'ADWIN(delta=0.05)'}
+2026-01-29 01:38:17,456 | INFO | Run finished. total={'wall_sec': 3.379664659500122, 'cpu_sec': 3.359375, 'cpu_pct': 99.39965465381044, 'rss_mb': None} peak_rss_mb=None

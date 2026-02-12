@@ -1,0 +1,6 @@
+2026-01-28 04:08:14,765 | INFO | Run started: run_id=BE_sudden__retrain_p16_last_window_wb16_fit__040814
+2026-01-28 04:08:14,765 | INFO | run_dir=C:\Poly\Diploma\v2\outputs\20260128_040749__domain_sudden_nb\runs\BE_sudden__retrain_p16_last_window_wb16_fit__040814
+2026-01-28 04:08:15,066 | INFO | EVENT pretrain_fit batch_id=None reason=pretrain train_n=2500 wall=0.04000115394592285 cpu=0.03125 rss_mb=None info={'pretrain_batches': 5, 'pre_acc': 0.9432, 'pre_f1_macro': 0.846040686892728}
+2026-01-28 04:08:15,335 | INFO | EVENT retrain_fit batch_id=21 reason=periodic train_n=8000 wall=0.10900259017944336 cpu=0.109375 rss_mb=None info={'period_batches': 16, 'stream_batches_seen': 16, 'buffer_size': 8000, 'global_batch_id': 21}
+2026-01-28 04:08:15,558 | INFO | EVENT retrain_fit batch_id=37 reason=periodic train_n=8000 wall=0.08300185203552246 cpu=0.078125 rss_mb=None info={'period_batches': 16, 'stream_batches_seen': 32, 'buffer_size': 8000, 'global_batch_id': 37}
+2026-01-28 04:08:15,628 | INFO | Run finished. total={'wall_sec': 0.8632011413574219, 'cpu_sec': 0.828125, 'cpu_pct': 95.9365042888772, 'rss_mb': None} peak_rss_mb=None

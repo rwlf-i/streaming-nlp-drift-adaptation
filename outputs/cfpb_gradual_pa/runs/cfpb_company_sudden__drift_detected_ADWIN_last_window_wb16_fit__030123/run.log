@@ -1,0 +1,5 @@
+2026-01-29 03:01:23,704 | INFO | Run started: run_id=cfpb_company_sudden__drift_detected_ADWIN_last_window_wb16_fit__030123
+2026-01-29 03:01:23,704 | INFO | run_dir=C:\Poly\Diploma\v2\outputs\20260129_025637__cfpb_gradual_pa\runs\cfpb_company_sudden__drift_detected_ADWIN_last_window_wb16_fit__030123
+2026-01-29 03:01:25,971 | INFO | EVENT pretrain_fit batch_id=None reason=pretrain train_n=5000 wall=0.28099942207336426 cpu=0.28125 rss_mb=None info={'pretrain_batches': 10, 'pre_acc': 0.9536, 'pre_f1_macro': 0.9582352394786001}
+2026-01-29 03:01:27,497 | INFO | EVENT retrain_fit batch_id=42 reason=drift_detected train_n=8000 wall=0.5888633728027344 cpu=0.59375 rss_mb=None info={'drift_detector': 'ADWIN(delta=0.05)'}
+2026-01-29 03:01:27,588 | INFO | Run finished. total={'wall_sec': 3.883976697921753, 'cpu_sec': 3.84375, 'cpu_pct': 98.96429095614097, 'rss_mb': None} peak_rss_mb=None

@@ -1,0 +1,5 @@
+2026-01-28 03:55:23,083 | INFO | Run started: run_id=BE_sudden__quality_drop_acc_th0.05_bk3_ck2_quality_drop_last_window_wb16_fit__035523
+2026-01-28 03:55:23,083 | INFO | run_dir=C:\Poly\Diploma\v2\outputs\20260128_035436__domain_sudden_lr\runs\BE_sudden__quality_drop_acc_th0.05_bk3_ck2_quality_drop_last_window_wb16_fit__035523
+2026-01-28 03:55:23,410 | INFO | EVENT pretrain_fit batch_id=None reason=pretrain train_n=2500 wall=0.06399941444396973 cpu=0.0625 rss_mb=None info={'pretrain_batches': 5, 'pre_acc': 0.9144, 'pre_f1_macro': 0.5241500519432466}
+2026-01-28 03:55:23,785 | INFO | EVENT retrain_fit batch_id=17 reason=quality_drop train_n=8500 wall=0.19769620895385742 cpu=0.203125 rss_mb=None info={'threshold': 0.05, 'drop': 0.113, 'current_metric': 0.782, 'baseline_metric': 0.895}
+2026-01-28 03:55:24,069 | INFO | Run finished. total={'wall_sec': 0.9850528240203857, 'cpu_sec': 0.96875, 'cpu_pct': 98.34497971856499, 'rss_mb': None} peak_rss_mb=None

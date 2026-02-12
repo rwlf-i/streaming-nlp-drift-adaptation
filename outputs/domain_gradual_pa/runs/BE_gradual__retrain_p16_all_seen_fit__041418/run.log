@@ -1,0 +1,6 @@
+2026-01-28 04:14:18,790 | INFO | Run started: run_id=BE_gradual__retrain_p16_all_seen_fit__041418
+2026-01-28 04:14:18,791 | INFO | run_dir=C:\Poly\Diploma\v2\outputs\20260128_041400__domain_gradual_pa\runs\BE_gradual__retrain_p16_all_seen_fit__041418
+2026-01-28 04:14:19,100 | INFO | EVENT pretrain_fit batch_id=None reason=pretrain train_n=2500 wall=0.04200291633605957 cpu=0.046875 rss_mb=None info={'pretrain_batches': 5, 'pre_acc': 1.0, 'pre_f1_macro': 1.0}
+2026-01-28 04:14:19,458 | INFO | EVENT retrain_fit batch_id=21 reason=periodic train_n=10500 wall=0.1785261631011963 cpu=0.171875 rss_mb=None info={'period_batches': 16, 'stream_batches_seen': 16, 'buffer_size': 10500, 'global_batch_id': 21}
+2026-01-28 04:14:19,907 | INFO | EVENT retrain_fit batch_id=37 reason=periodic train_n=18500 wall=0.2880828380584717 cpu=0.296875 rss_mb=None info={'period_batches': 16, 'stream_batches_seen': 32, 'buffer_size': 18500, 'global_batch_id': 37}
+2026-01-28 04:14:19,974 | INFO | Run finished. total={'wall_sec': 1.1841390132904053, 'cpu_sec': 1.140625, 'cpu_pct': 96.32526140917429, 'rss_mb': None} peak_rss_mb=None

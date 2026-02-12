@@ -1,0 +1,4 @@
+ts,run_id,event_type,batch_id,reason,train_n,info,wall_fit_sec,cpu_fit_sec,cpu_fit_pct,rss_mb
+2026-01-27 18:42:53,huffpost_years__quality_drop_acc_th0.05_bk3_ck2_quality_drop_last_window_wb16_fit__184253,pretrain_fit,,pretrain,3000,"{""pretrain_batches"": 6, ""pre_acc"": 1.0, ""pre_f1_macro"": 1.0}",0.029001712799072266,0.03125,107.75225662189047,
+2026-01-27 18:42:54,huffpost_years__quality_drop_acc_th0.05_bk3_ck2_quality_drop_last_window_wb16_fit__184253,retrain_fit,14,quality_drop,7000,"{""threshold"": 0.05, ""drop"": 0.209, ""current_metric"": 0.354, ""baseline_metric"": 0.563}",0.07500123977661133,0.078125,104.16494478316984,
+2026-01-27 18:42:54,huffpost_years__quality_drop_acc_th0.05_bk3_ck2_quality_drop_last_window_wb16_fit__184253,retrain_fit,22,quality_drop,8000,"{""threshold"": 0.05, ""drop"": 0.069, ""current_metric"": 0.37, ""baseline_metric"": 0.439}",0.102996826171875,0.109375,106.19259259259259,

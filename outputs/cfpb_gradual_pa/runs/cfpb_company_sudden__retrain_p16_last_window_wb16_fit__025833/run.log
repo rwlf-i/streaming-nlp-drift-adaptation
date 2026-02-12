@@ -1,0 +1,6 @@
+2026-01-29 02:58:33,122 | INFO | Run started: run_id=cfpb_company_sudden__retrain_p16_last_window_wb16_fit__025833
+2026-01-29 02:58:33,122 | INFO | run_dir=C:\Poly\Diploma\v2\outputs\20260129_025637__cfpb_gradual_pa\runs\cfpb_company_sudden__retrain_p16_last_window_wb16_fit__025833
+2026-01-29 02:58:35,455 | INFO | EVENT pretrain_fit batch_id=None reason=pretrain train_n=5000 wall=0.28299999237060547 cpu=0.28125 rss_mb=None info={'pretrain_batches': 10, 'pre_acc': 0.9536, 'pre_f1_macro': 0.9582352394786001}
+2026-01-29 02:58:36,363 | INFO | EVENT retrain_fit batch_id=26 reason=periodic train_n=8000 wall=0.5269999504089355 cpu=0.53125 rss_mb=None info={'period_batches': 16, 'stream_batches_seen': 16, 'buffer_size': 8000, 'global_batch_id': 26}
+2026-01-29 02:58:37,726 | INFO | EVENT retrain_fit batch_id=42 reason=periodic train_n=8000 wall=0.8174571990966797 cpu=0.8125 rss_mb=None info={'period_batches': 16, 'stream_batches_seen': 32, 'buffer_size': 8000, 'global_batch_id': 42}
+2026-01-29 02:58:37,814 | INFO | Run finished. total={'wall_sec': 4.691593885421753, 'cpu_sec': 4.6875, 'cpu_pct': 99.912739987268, 'rss_mb': None} peak_rss_mb=None

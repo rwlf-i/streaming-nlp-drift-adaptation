@@ -1,0 +1,5 @@
+ts,run_id,event_type,batch_id,reason,train_n,info,wall_fit_sec,cpu_fit_sec,cpu_fit_pct,rss_mb
+2026-01-27 14:04:42,huffpost_years__quality_drop_acc_th0.02_bk3_ck2_quality_drop_last_window_wb1_fit__140442,pretrain_fit,,pretrain,3000,"{""pretrain_batches"": 6, ""pre_acc"": 0.9376666666666666, ""pre_f1_macro"": 0.9275767595642744}",0.0279998779296875,0.015625,55.80381471389646,
+2026-01-27 14:04:42,huffpost_years__quality_drop_acc_th0.02_bk3_ck2_quality_drop_last_window_wb1_fit__140442,retrain_fit,14,quality_drop,500,"{""threshold"": 0.02, ""drop"": 0.281, ""current_metric"": 0.288, ""baseline_metric"": 0.569}",0.005998373031616211,0.0,0.0,
+2026-01-27 14:04:42,huffpost_years__quality_drop_acc_th0.02_bk3_ck2_quality_drop_last_window_wb1_fit__140442,retrain_fit,19,quality_drop,500,"{""threshold"": 0.02, ""drop"": 0.043, ""current_metric"": 0.362, ""baseline_metric"": 0.405}",0.0060007572174072266,0.0,0.0,
+2026-01-27 14:04:42,huffpost_years__quality_drop_acc_th0.02_bk3_ck2_quality_drop_last_window_wb1_fit__140442,retrain_fit,27,quality_drop,500,"{""threshold"": 0.02, ""drop"": 0.021, ""current_metric"": 0.396, ""baseline_metric"": 0.417}",0.006001472473144531,0.0,0.0,

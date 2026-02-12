@@ -1,0 +1,7 @@
+2026-01-27 14:04:42,674 | INFO | Run started: run_id=huffpost_years__quality_drop_acc_th0.02_bk3_ck2_quality_drop_last_window_wb1_fit__140442
+2026-01-27 14:04:42,674 | INFO | run_dir=C:\Poly\Diploma\v2\outputs\20260127_140427__huffpost_sgd_gradual\runs\huffpost_years__quality_drop_acc_th0.02_bk3_ck2_quality_drop_last_window_wb1_fit__140442
+2026-01-27 14:04:42,774 | INFO | EVENT pretrain_fit batch_id=None reason=pretrain train_n=3000 wall=0.0279998779296875 cpu=0.015625 rss_mb=None info={'pretrain_batches': 6, 'pre_acc': 0.9376666666666666, 'pre_f1_macro': 0.9275767595642744}
+2026-01-27 14:04:42,821 | INFO | EVENT retrain_fit batch_id=14 reason=quality_drop train_n=500 wall=0.005998373031616211 cpu=0.0 rss_mb=None info={'threshold': 0.02, 'drop': 0.281, 'current_metric': 0.288, 'baseline_metric': 0.569}
+2026-01-27 14:04:42,857 | INFO | EVENT retrain_fit batch_id=19 reason=quality_drop train_n=500 wall=0.0060007572174072266 cpu=0.0 rss_mb=None info={'threshold': 0.02, 'drop': 0.043, 'current_metric': 0.362, 'baseline_metric': 0.405}
+2026-01-27 14:04:42,905 | INFO | EVENT retrain_fit batch_id=27 reason=quality_drop train_n=500 wall=0.006001472473144531 cpu=0.0 rss_mb=None info={'threshold': 0.02, 'drop': 0.021, 'current_metric': 0.396, 'baseline_metric': 0.417}
+2026-01-27 14:04:42,984 | INFO | Run finished. total={'wall_sec': 0.3099842071533203, 'cpu_sec': 0.3125, 'cpu_pct': 100.81158742562499, 'rss_mb': None} peak_rss_mb=None

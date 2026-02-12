@@ -1,0 +1,2 @@
+ts,run_id,event_type,batch_id,reason,train_n,info,wall_fit_sec,cpu_fit_sec,cpu_fit_pct,rss_mb
+2026-01-28 04:07:40,BE_sudden__drift_detected_PHT_last_window_wb16_update__040740,pretrain_fit,,pretrain,2500,"{""pretrain_batches"": 5, ""pre_acc"": 1.0, ""pre_f1_macro"": 1.0}",0.04089212417602539,0.03125,76.42058374243503,

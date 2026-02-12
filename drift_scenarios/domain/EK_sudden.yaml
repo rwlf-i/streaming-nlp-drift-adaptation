@@ -1,0 +1,15 @@
+name: "EK_sudden"
+batch_size: 500
+shuffle_within_group: false
+
+data:
+  mode: files
+  text_col: "text"
+  label_col: "label"
+  sources:
+    electronics: "../data/domain/electronics_label.csv"
+    kitchen: "../data/domain/home_and_kitchen_label.csv"
+
+plan:
+  - { group: "electronics", batches: 15 }
+  - { group: "kitchen", batches: 10 }

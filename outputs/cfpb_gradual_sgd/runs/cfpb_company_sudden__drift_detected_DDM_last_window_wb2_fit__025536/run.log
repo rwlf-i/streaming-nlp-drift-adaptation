@@ -1,0 +1,4 @@
+2026-01-29 02:55:36,740 | INFO | Run started: run_id=cfpb_company_sudden__drift_detected_DDM_last_window_wb2_fit__025536
+2026-01-29 02:55:36,741 | INFO | run_dir=C:\Poly\Diploma\v2\outputs\20260129_025059__cfpb_gradual_sgd\runs\cfpb_company_sudden__drift_detected_DDM_last_window_wb2_fit__025536
+2026-01-29 02:55:38,960 | INFO | EVENT pretrain_fit batch_id=None reason=pretrain train_n=5000 wall=0.22026515007019043 cpu=0.21875 rss_mb=None info={'pretrain_batches': 10, 'pre_acc': 0.7262, 'pre_f1_macro': 0.5237384729591804}
+2026-01-29 02:55:39,884 | INFO | Run finished. total={'wall_sec': 3.1441760063171387, 'cpu_sec': 3.140625, 'cpu_pct': 99.88706082897382, 'rss_mb': None} peak_rss_mb=None

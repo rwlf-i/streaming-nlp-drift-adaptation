@@ -1,0 +1,5 @@
+2026-01-27 18:47:24,713 | INFO | Run started: run_id=huffpost_years__drift_detected_ADWIN_last_window_wb8_fit__184724
+2026-01-27 18:47:24,713 | INFO | run_dir=C:\Poly\Diploma\v2\outputs\20260127_184700__huffpost_nb_gradual\runs\huffpost_years__drift_detected_ADWIN_last_window_wb8_fit__184724
+2026-01-27 18:47:24,801 | INFO | EVENT pretrain_fit batch_id=None reason=pretrain train_n=3000 wall=0.011000633239746094 cpu=0.0 rss_mb=None info={'pretrain_batches': 6, 'pre_acc': 0.9346666666666666, 'pre_f1_macro': 0.9228743482237184}
+2026-01-27 18:47:25,136 | INFO | EVENT retrain_fit batch_id=38 reason=drift_detected train_n=4000 wall=0.017499446868896484 cpu=0.015625 rss_mb=None info={'drift_detector': 'ADWIN(delta=0.05)'}
+2026-01-27 18:47:25,181 | INFO | Run finished. total={'wall_sec': 0.46786952018737793, 'cpu_sec': 0.46875, 'cpu_pct': 100.1881891798101, 'rss_mb': None} peak_rss_mb=None

@@ -1,0 +1,16 @@
+name: "cfpb_company_sudden"
+batch_size: 500
+shuffle_within_group: false
+seed: 42
+
+data:
+  mode: files
+  text_col: "text"
+  label_col: "label"
+  sources:
+    A: "../data/cfpb/company_domains_auto/cfpb_company_A_topN.csv"
+    B: "../data/cfpb/company_domains_auto/cfpb_company_B_other.csv"
+
+plan:
+  - { group: "A", batches: 20 }
+  - { group: "B", batches: 25 }

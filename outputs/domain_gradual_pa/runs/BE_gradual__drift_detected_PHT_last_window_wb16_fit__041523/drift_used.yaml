@@ -1,0 +1,19 @@
+name: "BE_gradual"
+batch_size: 500
+shuffle_within_group: false
+
+data:
+  mode: files
+  text_col: "text"
+  label_col: "label"
+  sources:
+    books: "../data/domain/books_label.csv"
+    electronics: "../data/domain/electronics_label.csv"
+
+plan:
+  - { group: "books", batches: 12 }
+  - { mix: { books: 0.8, electronics: 0.2 }, batches: 6 }
+  - { mix: { books: 0.6, electronics: 0.4 }, batches: 6 }
+  - { mix: { books: 0.4, electronics: 0.6 }, batches: 6 }
+  - { mix: { books: 0.2, electronics: 0.8 }, batches: 6 }
+  - { group: "electronics", batches: 8 }

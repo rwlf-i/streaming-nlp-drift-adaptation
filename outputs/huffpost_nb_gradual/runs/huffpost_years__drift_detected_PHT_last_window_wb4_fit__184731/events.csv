@@ -1,0 +1,2 @@
+ts,run_id,event_type,batch_id,reason,train_n,info,wall_fit_sec,cpu_fit_sec,cpu_fit_pct,rss_mb
+2026-01-27 18:47:31,huffpost_years__drift_detected_PHT_last_window_wb4_fit__184731,pretrain_fit,,pretrain,3000,"{""pretrain_batches"": 6, ""pre_acc"": 0.9346666666666666, ""pre_f1_macro"": 0.9228743482237184}",0.011996984481811523,0.015625,130.24106202428507,

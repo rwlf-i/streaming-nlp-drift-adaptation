@@ -1,0 +1,4 @@
+2026-01-29 01:30:08,169 | INFO | Run started: run_id=label_temporary__quality_drop_acc_th0.1_bk3_ck2_quality_drop_last_window_wb2_fit__013008
+2026-01-29 01:30:08,169 | INFO | run_dir=C:\Poly\Diploma\v2\outputs\20260129_012640__label_temporary_sgd\runs\label_temporary__quality_drop_acc_th0.1_bk3_ck2_quality_drop_last_window_wb2_fit__013008
+2026-01-29 01:30:09,338 | INFO | EVENT pretrain_fit batch_id=None reason=pretrain train_n=2500 wall=0.22675704956054688 cpu=0.21875 rss_mb=None info={'pretrain_batches': 5, 'pre_acc': 0.9976, 'pre_f1_macro': 0.9932855383028706}
+2026-01-29 01:30:11,322 | INFO | Run finished. total={'wall_sec': 3.152778148651123, 'cpu_sec': 3.125, 'cpu_pct': 99.1189310715374, 'rss_mb': None} peak_rss_mb=None

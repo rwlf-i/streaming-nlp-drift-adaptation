@@ -1,0 +1,8 @@
+2026-01-28 04:16:40,772 | INFO | Run started: run_id=BE_gradual__retrain_p8_last_window_wb8_fit__041640
+2026-01-28 04:16:40,772 | INFO | run_dir=C:\Poly\Diploma\v2\outputs\20260128_041615__domain_gradual_nb\runs\BE_gradual__retrain_p8_last_window_wb8_fit__041640
+2026-01-28 04:16:41,092 | INFO | EVENT pretrain_fit batch_id=None reason=pretrain train_n=2500 wall=0.0429997444152832 cpu=0.046875 rss_mb=None info={'pretrain_batches': 5, 'pre_acc': 0.9432, 'pre_f1_macro': 0.846040686892728}
+2026-01-28 04:16:41,247 | INFO | EVENT retrain_fit batch_id=13 reason=periodic train_n=4000 wall=0.060003042221069336 cpu=0.0625 rss_mb=None info={'period_batches': 8, 'stream_batches_seen': 8, 'buffer_size': 4000, 'global_batch_id': 13}
+2026-01-28 04:16:41,400 | INFO | EVENT retrain_fit batch_id=21 reason=periodic train_n=4000 wall=0.059999704360961914 cpu=0.0625 rss_mb=None info={'period_batches': 8, 'stream_batches_seen': 16, 'buffer_size': 4000, 'global_batch_id': 21}
+2026-01-28 04:16:41,537 | INFO | EVENT retrain_fit batch_id=29 reason=periodic train_n=4000 wall=0.05299949645996094 cpu=0.046875 rss_mb=None info={'period_batches': 8, 'stream_batches_seen': 24, 'buffer_size': 4000, 'global_batch_id': 29}
+2026-01-28 04:16:41,666 | INFO | EVENT retrain_fit batch_id=37 reason=periodic train_n=4000 wall=0.04799914360046387 cpu=0.046875 rss_mb=None info={'period_batches': 8, 'stream_batches_seen': 32, 'buffer_size': 4000, 'global_batch_id': 37}
+2026-01-28 04:16:41,732 | INFO | Run finished. total={'wall_sec': 0.9608359336853027, 'cpu_sec': 0.921875, 'cpu_pct': 95.945100269526, 'rss_mb': None} peak_rss_mb=None

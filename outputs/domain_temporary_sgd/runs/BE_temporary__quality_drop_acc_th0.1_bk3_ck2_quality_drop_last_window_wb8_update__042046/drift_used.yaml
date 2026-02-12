@@ -1,0 +1,16 @@
+name: "BE_temporary"
+batch_size: 500
+shuffle_within_group: false
+
+data:
+  mode: files
+  text_col: "text"
+  label_col: "label"
+  sources:
+    books: "../data/domain/books_label.csv"
+    electronics: "../data/domain/electronics_label.csv"
+
+plan:
+  - { group: "books", batches: 12 }
+  - { group: "electronics", batches: 12 }
+  - { group: "books", batches: 20 }

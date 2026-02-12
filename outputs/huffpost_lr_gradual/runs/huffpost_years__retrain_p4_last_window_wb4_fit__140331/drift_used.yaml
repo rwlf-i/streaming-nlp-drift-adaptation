@@ -1,0 +1,25 @@
+name: "huffpost_years"
+batch_size: 500
+shuffle_within_group: false
+
+data:
+  mode: files
+  text_col: "text"
+  label_col: "label"
+  sources:
+    y2012: "../data/huffpost/huffpost_2012.csv"
+    y2013: "../data/huffpost/huffpost_2013.csv"
+    y2014: "../data/huffpost/huffpost_2014.csv"
+    y2015: "../data/huffpost/huffpost_2015.csv"
+    y2016: "../data/huffpost/huffpost_2016.csv"
+    y2017: "../data/huffpost/huffpost_2017.csv"
+    y2018: "../data/huffpost/huffpost_2018.csv"
+
+plan:
+  - { group: "y2012", batches: 6 }
+  - { group: "y2013", batches: 6 }
+  - { group: "y2014", batches: 6 }
+  - { group: "y2015", batches: 6 }
+  - { group: "y2016", batches: 6 }
+  - { group: "y2017", batches: 6 }
+  - { group: "y2018", batches: 6 }

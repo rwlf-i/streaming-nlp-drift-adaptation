@@ -1,0 +1,6 @@
+2026-01-29 03:04:24,716 | INFO | Run started: run_id=cfpb_company_sudden__quality_drop_acc_th0.02_bk3_ck2_quality_drop_last_window_wb1_fit__030424
+2026-01-29 03:04:24,716 | INFO | run_dir=C:\Poly\Diploma\v2\outputs\20260129_030239__cfpb_gradual_nb\runs\cfpb_company_sudden__quality_drop_acc_th0.02_bk3_ck2_quality_drop_last_window_wb1_fit__030424
+2026-01-29 03:04:26,851 | INFO | EVENT pretrain_fit batch_id=None reason=pretrain train_n=5000 wall=0.17247700691223145 cpu=0.171875 rss_mb=None info={'pretrain_batches': 10, 'pre_acc': 0.6808, 'pre_f1_macro': 0.570003176745046}
+2026-01-29 03:04:27,150 | INFO | EVENT retrain_fit batch_id=22 reason=quality_drop train_n=500 wall=0.02300095558166504 cpu=0.03125 rss_mb=None info={'threshold': 0.02, 'drop': 0.11, 'current_metric': 0.454, 'baseline_metric': 0.564}
+2026-01-29 03:04:27,724 | INFO | EVENT retrain_fit batch_id=37 reason=quality_drop train_n=500 wall=0.031000375747680664 cpu=0.03125 rss_mb=None info={'threshold': 0.02, 'drop': 0.055, 'current_metric': 0.398, 'baseline_metric': 0.453}
+2026-01-29 03:04:27,989 | INFO | Run finished. total={'wall_sec': 3.2735300064086914, 'cpu_sec': 3.234375, 'cpu_pct': 98.80389040784607, 'rss_mb': None} peak_rss_mb=None

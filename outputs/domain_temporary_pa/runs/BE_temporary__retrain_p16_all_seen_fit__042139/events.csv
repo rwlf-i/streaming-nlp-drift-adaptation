@@ -1,0 +1,4 @@
+ts,run_id,event_type,batch_id,reason,train_n,info,wall_fit_sec,cpu_fit_sec,cpu_fit_pct,rss_mb
+2026-01-28 04:21:40,BE_temporary__retrain_p16_all_seen_fit__042139,pretrain_fit,,pretrain,2500,"{""pretrain_batches"": 5, ""pre_acc"": 1.0, ""pre_f1_macro"": 1.0}",0.05310511589050293,0.0625,117.6911093252641,
+2026-01-28 04:21:40,BE_temporary__retrain_p16_all_seen_fit__042139,retrain_fit,21,periodic,10500,"{""period_batches"": 16, ""stream_batches_seen"": 16, ""buffer_size"": 10500, ""global_batch_id"": 21}",0.1800227165222168,0.1875,104.15352218999563,
+2026-01-28 04:21:40,BE_temporary__retrain_p16_all_seen_fit__042139,retrain_fit,37,periodic,18500,"{""period_batches"": 16, ""stream_batches_seen"": 32, ""buffer_size"": 18500, ""global_batch_id"": 37}",0.357083797454834,0.359375,100.64164281927572,

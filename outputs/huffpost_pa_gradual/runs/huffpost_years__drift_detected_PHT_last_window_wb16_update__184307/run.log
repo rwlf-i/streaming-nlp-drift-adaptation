@@ -1,0 +1,4 @@
+2026-01-27 18:43:07,438 | INFO | Run started: run_id=huffpost_years__drift_detected_PHT_last_window_wb16_update__184307
+2026-01-27 18:43:07,438 | INFO | run_dir=C:\Poly\Diploma\v2\outputs\20260127_184224__huffpost_pa_gradual\runs\huffpost_years__drift_detected_PHT_last_window_wb16_update__184307
+2026-01-27 18:43:07,536 | INFO | EVENT pretrain_fit batch_id=None reason=pretrain train_n=3000 wall=0.044558048248291016 cpu=0.015625 rss_mb=None info={'pretrain_batches': 6, 'pre_acc': 1.0, 'pre_f1_macro': 1.0}
+2026-01-27 18:43:07,734 | INFO | Run finished. total={'wall_sec': 0.29747462272644043, 'cpu_sec': 0.296875, 'cpu_pct': 99.79842894800748, 'rss_mb': None} peak_rss_mb=None

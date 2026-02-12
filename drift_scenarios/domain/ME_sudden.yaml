@@ -1,0 +1,15 @@
+name: "ME_sudden"
+batch_size: 500
+shuffle_within_group: false
+
+data:
+  mode: files
+  text_col: "text"
+  label_col: "label"
+  sources:
+    electronics: "../data/electronics_label.csv"
+    movies: "../data/movies_and_tv_label.csv"
+
+plan:
+  - { group: "movies", batches: 15 }
+  - { group: "electronics", batches: 10 }

@@ -1,0 +1,6 @@
+ts,run_id,event_type,batch_id,reason,train_n,info,wall_fit_sec,cpu_fit_sec,cpu_fit_pct,rss_mb
+2026-01-27 14:03:21,huffpost_years__retrain_p8_all_seen_fit__140320,pretrain_fit,,pretrain,3000,"{""pretrain_batches"": 6, ""pre_acc"": 0.753, ""pre_f1_macro"": 0.6370529510082109}",0.22600412368774414,0.234375,103.70385998966168,
+2026-01-27 14:03:21,huffpost_years__retrain_p8_all_seen_fit__140320,retrain_fit,14,periodic,7000,"{""period_batches"": 8, ""stream_batches_seen"": 8, ""buffer_size"": 7000, ""global_batch_id"": 14}",0.3489811420440674,0.359375,102.97834372798864,
+2026-01-27 14:03:22,huffpost_years__retrain_p8_all_seen_fit__140320,retrain_fit,22,periodic,11000,"{""period_batches"": 8, ""stream_batches_seen"": 16, ""buffer_size"": 11000, ""global_batch_id"": 22}",0.5388822555541992,0.546875,101.48320794819656,
+2026-01-27 14:03:22,huffpost_years__retrain_p8_all_seen_fit__140320,retrain_fit,30,periodic,15000,"{""period_batches"": 8, ""stream_batches_seen"": 24, ""buffer_size"": 15000, ""global_batch_id"": 30}",0.7700169086456299,0.765625,99.42963477862392,
+2026-01-27 14:03:23,huffpost_years__retrain_p8_all_seen_fit__140320,retrain_fit,38,periodic,19000,"{""period_batches"": 8, ""stream_batches_seen"": 32, ""buffer_size"": 19000, ""global_batch_id"": 38}",0.9615538120269775,0.9375,97.49844348531347,

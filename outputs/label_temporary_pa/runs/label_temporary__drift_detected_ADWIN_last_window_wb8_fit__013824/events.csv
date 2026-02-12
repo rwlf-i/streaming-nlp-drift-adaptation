@@ -1,0 +1,3 @@
+ts,run_id,event_type,batch_id,reason,train_n,info,wall_fit_sec,cpu_fit_sec,cpu_fit_pct,rss_mb
+2026-01-29 01:38:26,label_temporary__drift_detected_ADWIN_last_window_wb8_fit__013824,pretrain_fit,,pretrain,2500,"{""pretrain_batches"": 5, ""pre_acc"": 0.9988, ""pre_f1_macro"": 0.9966607287002354}",0.22438621520996094,0.21875,97.48816334163529,
+2026-01-29 01:38:28,label_temporary__drift_detected_ADWIN_last_window_wb8_fit__013824,retrain_fit,37,drift_detected,4000,"{""drift_detector"": ""ADWIN(delta=0.05)""}",0.3608882427215576,0.359375,99.58068938180257,

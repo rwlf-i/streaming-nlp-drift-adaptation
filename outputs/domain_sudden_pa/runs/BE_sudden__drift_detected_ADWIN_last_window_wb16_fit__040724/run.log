@@ -1,0 +1,5 @@
+2026-01-28 04:07:24,424 | INFO | Run started: run_id=BE_sudden__drift_detected_ADWIN_last_window_wb16_fit__040724
+2026-01-28 04:07:24,425 | INFO | run_dir=C:\Poly\Diploma\v2\outputs\20260128_040620__domain_sudden_pa\runs\BE_sudden__drift_detected_ADWIN_last_window_wb16_fit__040724
+2026-01-28 04:07:24,733 | INFO | EVENT pretrain_fit batch_id=None reason=pretrain train_n=2500 wall=0.0449979305267334 cpu=0.046875 rss_mb=None info={'pretrain_batches': 5, 'pre_acc': 1.0, 'pre_f1_macro': 1.0}
+2026-01-28 04:07:25,321 | INFO | EVENT retrain_fit batch_id=37 reason=drift_detected train_n=8000 wall=0.11188626289367676 cpu=0.09375 rss_mb=None info={'drift_detector': 'ADWIN(delta=0.05)'}
+2026-01-28 04:07:25,442 | INFO | Run finished. total={'wall_sec': 1.0180623531341553, 'cpu_sec': 0.953125, 'cpu_pct': 93.62147584239389, 'rss_mb': None} peak_rss_mb=None

@@ -1,0 +1,4 @@
+2026-01-28 04:07:49,958 | INFO | Run started: run_id=BE_sudden__none__040749
+2026-01-28 04:07:49,958 | INFO | run_dir=C:\Poly\Diploma\v2\outputs\20260128_040749__domain_sudden_nb\runs\BE_sudden__none__040749
+2026-01-28 04:07:50,274 | INFO | EVENT pretrain_fit batch_id=None reason=pretrain train_n=2500 wall=0.0373539924621582 cpu=0.046875 rss_mb=None info={'pretrain_batches': 5, 'pre_acc': 0.9432, 'pre_f1_macro': 0.846040686892728}
+2026-01-28 04:07:50,655 | INFO | Run finished. total={'wall_sec': 0.6963660717010498, 'cpu_sec': 0.6875, 'cpu_pct': 98.72680877754539, 'rss_mb': None} peak_rss_mb=None

@@ -1,0 +1,16 @@
+name: "label_temporary"
+batch_size: 500
+shuffle_within_group: true
+
+data:
+  mode: files
+  text_col: "text"
+  label_col: "label"
+  sources:
+    spam: "../data/label/trec07_spam.csv"
+    mail: "../data/label/trec07_ham.csv"
+
+plan:
+  - { mix: { mail: 0.90, spam: 0.10 }, batches: 15 }
+  - { mix: { mail: 0.70, spam: 0.30 }, batches: 15 }
+  - { mix: { mail: 0.90, spam: 0.10 }, batches: 15 }

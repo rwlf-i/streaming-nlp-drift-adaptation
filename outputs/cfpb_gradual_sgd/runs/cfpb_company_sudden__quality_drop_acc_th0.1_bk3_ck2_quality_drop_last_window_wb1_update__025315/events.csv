@@ -1,0 +1,3 @@
+ts,run_id,event_type,batch_id,reason,train_n,info,wall_fit_sec,cpu_fit_sec,cpu_fit_pct,rss_mb
+2026-01-29 02:53:18,cfpb_company_sudden__quality_drop_acc_th0.1_bk3_ck2_quality_drop_last_window_wb1_update__025315,pretrain_fit,,pretrain,5000,"{""pretrain_batches"": 10, ""pre_acc"": 0.7262, ""pre_f1_macro"": 0.5237384729591804}",0.28235292434692383,0.28125,99.60938093718177,
+2026-01-29 02:53:18,cfpb_company_sudden__quality_drop_acc_th0.1_bk3_ck2_quality_drop_last_window_wb1_update__025315,retrain_update,22,quality_drop,500,"{""threshold"": 0.1, ""drop"": 0.111, ""current_metric"": 0.55, ""baseline_metric"": 0.661}",0.03106522560119629,0.03125,100.5947949684183,

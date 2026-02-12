@@ -1,0 +1,6 @@
+ts,run_id,event_type,batch_id,reason,train_n,info,wall_fit_sec,cpu_fit_sec,cpu_fit_pct,rss_mb
+2026-01-29 02:52:28,cfpb_company_sudden__retrain_p8_last_window_wb8_fit__025226,pretrain_fit,,pretrain,5000,"{""pretrain_batches"": 10, ""pre_acc"": 0.7262, ""pre_f1_macro"": 0.5237384729591804}",0.21243739128112793,0.203125,95.61640668576821,
+2026-01-29 02:52:28,cfpb_company_sudden__retrain_p8_last_window_wb8_fit__025226,retrain_fit,18,periodic,4000,"{""period_batches"": 8, ""stream_batches_seen"": 8, ""buffer_size"": 4000, ""global_batch_id"": 18}",0.1690986156463623,0.171875,101.64187290536073,
+2026-01-29 02:52:29,cfpb_company_sudden__retrain_p8_last_window_wb8_fit__025226,retrain_fit,26,periodic,4000,"{""period_batches"": 8, ""stream_batches_seen"": 16, ""buffer_size"": 4000, ""global_batch_id"": 26}",0.20529437065124512,0.203125,98.94328780454947,
+2026-01-29 02:52:29,cfpb_company_sudden__retrain_p8_last_window_wb8_fit__025226,retrain_fit,34,periodic,4000,"{""period_batches"": 8, ""stream_batches_seen"": 24, ""buffer_size"": 4000, ""global_batch_id"": 34}",0.22144508361816406,0.21875,98.78295621915402,
+2026-01-29 02:52:30,cfpb_company_sudden__retrain_p8_last_window_wb8_fit__025226,retrain_fit,42,periodic,4000,"{""period_batches"": 8, ""stream_batches_seen"": 32, ""buffer_size"": 4000, ""global_batch_id"": 42}",0.23445582389831543,0.234375,99.96552702467716,

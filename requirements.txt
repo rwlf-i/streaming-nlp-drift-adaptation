@@ -4,3 +4,4 @@ matplotlib==3.3.4
 scikit-learn
 scikit-multiflow
 PyYAML
+psutil
